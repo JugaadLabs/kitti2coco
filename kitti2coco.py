@@ -21,8 +21,8 @@ get_ipython().run_line_magic('autoreload', '2')
 label_dir = '/home/marvin/tlt-forklift/data/training/label_2/'
 files = [f for f in listdir(label_dir) if isfile(join(label_dir, f))]
 filedata = []
-width = 1280
-height = 720
+width = 640
+height = 368
 
 forkliftID = 0
 palletID = 1
